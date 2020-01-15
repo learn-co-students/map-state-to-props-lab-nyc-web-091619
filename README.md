@@ -77,7 +77,7 @@ contents of our store's state.
 
 1. Connect the Users component similar to how it is connected in UserInput.
 
-2. Write a function in `Users.js`, but outside of the Users class called
+2. Write a function in `Users.js`, but outside of the Users class, called
    `mapStateToProps`. `mapStateToProps` accepts one argument, `state`, the
    current version of your store's state. Use `state` to access the array of
    `users`. Your `mapStateToProps` function should return an object with keys.
